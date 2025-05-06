@@ -1,6 +1,3 @@
-Here's a short `README.md` in Markdown for your scraping project:
-
-````markdown
 # Django Project
 
 This is a Django project that requires Python 3.10 and Pipenv for dependency management.
@@ -14,7 +11,7 @@ To install Pipenv:
 
 ```bash
 pip install pipenv
-````
+```
 
 ## Setup Instructions
 
