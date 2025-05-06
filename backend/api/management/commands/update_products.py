@@ -15,7 +15,7 @@ if str(SCRAPING_DIR) not in sys.path:
     sys.path.insert(0, str(SCRAPING_DIR))
 
 try:
-    from scraping.scraper import search_mercadolibre
+    from scraper import search_mercadolibre
 except ImportError as e:
     print(f"Error importing scraper: {e}")
     def search_mercadolibre(search_param, page=1):
